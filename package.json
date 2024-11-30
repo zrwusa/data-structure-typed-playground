@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "perf:rbtree": "node benchmark/red-black-tree.js",
     "trie": "ts-node examples/trie.ts",
     "bst": "ts-node examples/bst.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bst-typed": "^1.53.7",
     "data-structure-typed": "^1.54.2",
