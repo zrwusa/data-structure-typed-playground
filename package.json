@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc utils/array.ts",
     "perf:rbtree": "node benchmark/red-black-tree.js",
     "trie": "ts-node examples/trie.ts",
     "bst": "ts-node examples/bst.ts"
@@ -13,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "bst-typed": "^1.53.7",
-    "data-structure-typed": "^1.54.2",
+    "data-structure-typed": "^2.0.0",
     "heap-typed": "^1.53.7",
     "linked-list-typed": "^1.53.7",
     "red-black-tree-typed": "^1.53.7",
@@ -21,6 +22,6 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.7.2"
   }
 }
